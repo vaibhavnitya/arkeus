@@ -1,6 +1,9 @@
 {
     "name": "arkeus",
     "main": "server.js",
+    "scripts": {
+        "always": "nodemon server.js"
+    },
     "dependencies": {
         "body-parser": "^1.18.3",
         "express": "^4.16.4",
